@@ -1,215 +1,561 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ahmed Mohamed Eid - Online Coach</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <!-- Cursor -->
 
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Mohamed Ahmed Ragab - Front-End Developer and Computer Science Graduate. Explore my skills, projects, and experience."
+    />
+
+    <title>Mohamed Ahmed Ragab | Front-End Developer</title>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Custom Cursor -->
     <div class="cursor"></div>
     <div class="cursor-follower"></div>
 
     <!-- Navigation -->
-    <nav class="nav">
-        <div class="nav-brand">Ahmed Mohamed Eid</div>
-        <div class="nav-toggle">
-            <span></span>
-            <span></span>
+    <header>
+      <nav class="nav container">
+        <a href="#home" class="nav-brand">Mohamed<span> Ahmed</span></a>
+
+        <div
+          class="nav-toggle"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+          role="button"
+          tabindex="0"
+        >
+          <span></span>
+          <span></span>
         </div>
+
         <div class="nav-menu">
-            <a href="#home" class="nav-link active">Home</a>
-            <a href="#about" class="nav-link">About</a>
-            <a href="#services" class="nav-link">Services</a>
-            <a href="#testimonials" class="nav-link">Testimonials</a>
-            <a href="#contact" class="nav-link">Contact</a>
+          <a href="#home" class="nav-link active">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#education" class="nav-link">Education</a>
+          <a href="#contact" class="nav-link">Contact</a>
         </div>
-    </nav>
+      </nav>
+    </header>
 
-    <!-- Main Content -->
     <main>
-        <!-- Home Section -->
-        <section id="home" class="section home">
-            <div class="container">
-                <div class="home-content">
-                    <div class="coach-image">
-                        <img src="photo_2025-05-10_23-59-46.jpg" alt="Ahmed Mohamed Eid">
-                    </div>
-                    <div class="coach-info">
-                        <h1 class="name">Ahmed Mohamed Eid</h1>
-                        <p class="subtitle">Professional Online Coach</p>
-                        <p class="description">Transform your life with personalized coaching sessions. I help individuals achieve their goals through proven strategies and dedicated support.</p>
-                        <div class="cta">
-                            <a href="#contact" class="btn">Book a Session</a>
-                            <a href="#services" class="btn btn-outline">View Services</a>
-                        </div>
-                    </div>
-                </div>
+      <!-- Hero Section -->
+      <section id="home" class="section home">
+        <div class="container">
+          <div class="home-content">
+            <div class="coach-image">
+              <img
+                src="photo_2026-10-14_12-36-40.jpg"
+                alt="Mohamed Ahmed Ragab"
+              />
             </div>
-        </section>
 
-        <!-- About Section -->
-        <section id="about" class="section about">
-            <div class="container">
-                <h2 class="section-title">About Me</h2>
-                <div class="about-content">
-                    <div class="about-text">
-                        <p>With over [X] years of experience in coaching, I've helped countless individuals transform their lives and achieve their goals. My approach combines proven methodologies with personalized strategies to ensure your success.</p>
-                        <div class="expertise">
-                            <h3>Areas of Expertise</h3>
-                            <ul>
-                                <li>Personal Development</li>
-                                <li>Career Coaching</li>
-                                <li>Life Balance</li>
-                                <li>Goal Achievement</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="stats">
-                        <div class="stat-item">
-                            <h3>500+</h3>
-                            <p>Clients Helped</p>
-                        </div>
-                        <div class="stat-item">
-                            <h3>95%</h3>
-                            <p>Success Rate</p>
-                        </div>
-                        <div class="stat-item">
-                            <h3>10+</h3>
-                            <p>Years Experience</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="coach-info">
+              <p class="hero-tag">
+                <i class="fas fa-code"></i>
+                Front-End Developer
+              </p>
+
+              <h1 class="name">Mohamed Ahmed Ragab</h1>
+
+              <p class="subtitle">Building Modern Web Experiences</p>
+
+              <p class="description">
+                I'm a Computer Science graduate passionate about building
+                responsive, user-friendly web applications using modern
+                JavaScript technologies.
+              </p>
+
+              <div class="cta">
+                <a href="#projects" class="btn">
+                  View My Projects
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+              </div>
+
+              <div class="hero-socials social-links">
+                <a
+                  href="https://github.com/mohamedahmed167"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="GitHub"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+
+                <a
+                  href="https://www.linkedin.com/in/mohammedahmmed/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn"
+                >
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <!-- Services Section -->
-        <section id="services" class="section services">
-            <div class="container">
-                <h2 class="section-title">My Services</h2>
-                <div class="services-grid">
-                    <div class="service-card">
-                        <i class="fas fa-user-tie"></i>
-                        <h3>One-on-One Coaching</h3>
-                        <p>Personalized coaching sessions tailored to your specific needs and goals.</p>
-                        <a href="#contact" class="btn">Learn More</a>
-                    </div>
-                    <div class="service-card">
-                        <i class="fas fa-users"></i>
-                        <h3>Group Sessions</h3>
-                        <p>Join our community of like-minded individuals in group coaching sessions.</p>
-                        <a href="#contact" class="btn">Learn More</a>
-                    </div>
-                    <div class="service-card">
-                        <i class="fas fa-book"></i>
-                        <h3>Online Courses</h3>
-                        <p>Access our comprehensive online courses at your own pace.</p>
-                        <a href="#contact" class="btn">Learn More</a>
-                    </div>
-                </div>
+      <!-- About Section -->
+      <section id="about" class="section about">
+        <div class="container">
+          <h2 class="section-title">About Me</h2>
+
+          <div class="about-content">
+            <div class="about-text">
+              <p>
+                I'm a Computer Science graduate from Tanta University with a
+                strong interest in Front-End Development and creating practical
+                web applications.
+              </p>
+
+              <p>
+                I work with JavaScript, TypeScript, React, and modern web
+                technologies. I also have experience building REST APIs with
+                Node.js and Express, which helps me understand how front-end
+                applications communicate with back-end services.
+              </p>
+
+              <p>
+                I'm continuously improving my skills through hands-on projects,
+                problem-solving, and learning modern development practices.
+              </p>
+
+              <div class="expertise">
+                <h3>What I Focus On</h3>
+
+                <ul>
+                  <li>Responsive Web Design</li>
+                  <li>Reusable React Components</li>
+                  <li>API Integration</li>
+                  <li>Clean and Maintainable Code</li>
+                </ul>
+              </div>
             </div>
-        </section>
 
-        <!-- Testimonials Section -->
-        <!-- (Removed as per user request) -->
+            <div class="stats">
+              <div class="stat-item">
+                <h3>React</h3>
+                <p>Front-End Development</p>
+              </div>
 
-        <!-- Transformations Section -->
-        <section id="transformations" class="section transformations">
-            <div class="container">
-                <h2 class="section-title">Client Transformations</h2>
-                <div class="transformation-grid">
-                    <div class="transformation-card fade-in">
-                        <img src="first client.jpg"="Client 1 Transformation">
-                        <div class="transformation-caption">
-                            <h4>Client 1</h4>
-                            <p>Impressive transformation after dedicated training with Ahmed.</p>
-                        </div>
-                    </div>
-                    <div class="transformation-card fade-in">
-                        <img src="thre client.jpg" alt="Client 2 Transformation">
-                        <div class="transformation-caption">
-                            <h4>Client 2</h4>
-                            <p>Remarkable progress and muscle gain in just a few months.</p>
-                        </div>
-                    </div>
-                    <div class="transformation-card fade-in">
-                        <img src="second client.jpg" alt="Client 3 Transformation">
-                        <div class="transformation-caption">
-                            <h4>Client 3</h4>
-                            <p>Outstanding fat loss and strength improvement with Ahmed's coaching.</p>
-                        </div>
-                    </div>
-                </div>
+              <div class="stat-item">
+                <h3>REST</h3>
+                <p>API Integration</p>
+              </div>
+
+              <div class="stat-item">
+                <h3>MERN</h3>
+                <p>Technology Stack</p>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <!-- Contact Section -->
-        <section id="contact" class="section contact">
-            <div class="container">
-                <h2 class="section-title">Get in Touch</h2>
-                <div class="contact-content">
-                    <div class="contact-info">
-                        <div class="contact-item">
-                            <i class="fas fa-envelope"></i>
-                            <h3>Email</h3>
-                            <p>ahmed@example.com</p>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-phone"></i>
-                            <h3>Phone</h3>
-                            <p>012063356565 just a temp fake number</p>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <h3>Location</h3>
-                            <p>Available Worldwide</p>
-                        </div>
-                    </div>
-                    <form class="contact-form">
-                        <div class="form-group">
-                            <input type="text" required>
-                            <label>Name</label>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" required>
-                            <label>Email</label>
-                        </div>
-                        <div class="form-group">
-                            <select required>
-                                <option value="">Select Service</option>
-                                <option value="one-on-one">One-on-One Coaching</option>
-                                <option value="group">Group Sessions</option>
-                                <option value="course">Online Course</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <textarea required></textarea>
-                            <label>Message</label>
-                        </div>
-                        <button type="submit" class="btn">Send Message</button>
-                    </form>
-                </div>
+      <!-- Skills Section -->
+      <section id="skills" class="section services">
+        <div class="container">
+          <h2 class="section-title">My Skills</h2>
+
+          <p class="section-description">
+            Technologies and tools I use to build web applications.
+          </p>
+
+          <div class="services-grid">
+            <div class="service-card">
+              <i class="fab fa-html5"></i>
+              <h3>HTML & CSS</h3>
+              <p>
+                Semantic HTML, responsive layouts, Flexbox, Grid, and modern CSS
+                styling.
+              </p>
             </div>
-        </section>
+
+            <div class="service-card">
+              <i class="fab fa-js"></i>
+              <h3>JavaScript & TypeScript</h3>
+              <p>
+                DOM manipulation, asynchronous JavaScript, ES6+, and type-safe
+                development.
+              </p>
+            </div>
+
+            <div class="service-card">
+              <i class="fab fa-react"></i>
+              <h3>React</h3>
+              <p>
+                Components, props, state, hooks, React Router, and API
+                integration.
+              </p>
+            </div>
+
+            <div class="service-card">
+              <i class="fab fa-node-js"></i>
+              <h3>Node.js & Express</h3>
+              <p>
+                REST API development, authentication, middleware, and
+                server-side logic.
+              </p>
+            </div>
+
+            <div class="service-card">
+              <i class="fas fa-database"></i>
+              <h3>Databases</h3>
+              <p>MongoDB, Mongoose, data modeling, and database operations.</p>
+            </div>
+
+            <div class="service-card">
+              <i class="fab fa-git-alt"></i>
+              <h3>Tools & Workflow</h3>
+              <p>Git, GitHub, npm, Postman, Swagger, and VS Code.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="section transformations">
+        <div class="container">
+          <h2 class="section-title">Featured Projects</h2>
+
+          <p class="section-description">
+            A selection of front-end projects built using HTML, CSS, and
+            JavaScript.
+          </p>
+
+          <div class="transformation-grid">
+            <!-- E-Commerce Project -->
+            <article class="transformation-card fade-in">
+              <div class="project-image">
+                <img
+                  src="Screenshot 2026-10-14 131111.png"
+                  alt="E-Commerce Website Preview"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="transformation-caption">
+                <h4>E-Commerce Website</h4>
+
+                <p>
+                  A responsive online shopping website featuring product
+                  listings, shopping cart functionality, and interactive user
+                  interfaces.
+                </p>
+
+                <div class="project-tags">
+                  <span>React</span>
+                  <span>CSS</span>
+                </div>
+
+                <div class="project-links">
+                  <a
+                    href="https://github.com/mohamedahmed167/ecommerce"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn"
+                  >
+                    <i class="fab fa-github"></i> GitHub
+                  </a>
+
+                  <a
+                    href="https://ecommerce-gamma-wheat.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn btn-outline"
+                  >
+                    Live Demo
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Spotify Clone -->
+            <article class="transformation-card fade-in">
+              <div class="project-image">
+                <img
+                  src="Screenshot 2026-10-14 131128.png"
+                  alt="Spotify Clone Preview"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="transformation-caption">
+                <h4>Spotify Clone</h4>
+
+                <p>
+                  A music streaming interface inspired by Spotify, featuring
+                  playlists, music cards, and interactive playback controls.
+                </p>
+
+                <div class="project-tags">
+                  <span>React</span>
+                  <span>Tailwind CSS</span>
+                </div>
+
+                <div class="project-links">
+                  <a
+                    href="https://github.com/mohamedahmed167/Soptify-React-Vite-Tailwind"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn"
+                  >
+                    <i class="fab fa-github"></i> GitHub
+                  </a>
+
+                  <a
+                    href="https://soptify-react-vite-tailwind.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn btn-outline"
+                  >
+                    Live Demo
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Dashboard Project -->
+            <article class="transformation-card fade-in">
+              <div class="project-image">
+                <img
+                  src="Screenshot 2026-10-14 131049.png"
+                  alt="Admin Dashboard Preview"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="transformation-caption">
+                <h4>Admin Dashboard</h4>
+
+                <p>
+                  A modern dashboard featuring statistics, data cards, charts,
+                  and responsive navigation.
+                </p>
+
+                <div class="project-tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                </div>
+
+                <div class="project-links">
+                  <a
+                    href="https://github.com/mohamedahmed167/Template-four"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn"
+                  >
+                    <i class="fab fa-github"></i> GitHub
+                  </a>
+
+                  <a
+                    href="https://mohamedahmed167.github.io/Template-four/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn btn-outline"
+                  >
+                    Live Demo
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education Section -->
+      <section id="education" class="section about">
+        <div class="container">
+          <h2 class="section-title">Education & Training</h2>
+
+          <div class="services-grid">
+            <div class="service-card">
+              <i class="fas fa-university"></i>
+
+              <h3>BSc in Computer Science</h3>
+
+              <p>Tanta University</p>
+              <p>October 2022 – June 2026</p>
+              <p>Graduation Project: Student Guide</p>
+            </div>
+
+            <div class="service-card">
+              <i class="fas fa-laptop-code"></i>
+
+              <h3>NTI Career Accelerator</h3>
+
+              <p>MEAN Stack Web Developer</p>
+
+              <p>
+                Completed a 210-hour training program covering web development
+                and professional skills.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="section contact">
+        <div class="container">
+          <h2 class="section-title">Let's Connect</h2>
+
+          <p class="section-description">
+            Have an opportunity or a project in mind? Feel free to get in touch.
+          </p>
+
+          <div class="contact-content">
+            <div class="contact-info">
+              <div class="contact-item">
+                <i class="fab fa-github"></i>
+                <h3>GitHub</h3>
+
+                <p>
+                  <a
+                    href="https://github.com/mohamedahmed167"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View My Repositories
+                  </a>
+                </p>
+              </div>
+
+              <div class="contact-item">
+                <i class="fab fa-linkedin"></i>
+                <h3>LinkedIn</h3>
+
+                <p>
+                  <a
+                    href="https://www.linkedin.com/in/mohammedahmmed/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Connect With Me
+                  </a>
+                </p>
+              </div>
+
+              <div class="contact-item">
+                <i class="fas fa-globe"></i>
+                <h3>Portfolio</h3>
+
+                <p>
+                  <a
+                    href="https://portfolio-tekb.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Visit My Portfolio
+                  </a>
+                </p>
+              </div>
+            </div>
+
+            <form class="contact-form" id="contact-form">
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Your Name"
+                  aria-label="Your Name"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Your Email"
+                  aria-label="Your Email"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="subject"
+                  placeholder="Subject"
+                  aria-label="Subject"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <textarea
+                  name="message"
+                  rows="5"
+                  placeholder="Your Message"
+                  aria-label="Your Message"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn">
+                Send Message
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <div class="social-links">
-                <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
-                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://youtu.be/R7Xh-5wW9qs?si=hk_8QiLfnybYSgln" target="_blank"><i class="fab fa-youtube"></i></a>
-            </div>
-            <p>&copy; <span class="year"></span> Ahmed Mohamed Eid. All rights reserved.</p>
+      <div class="container">
+        <div class="social-links">
+          <a
+            href="https://github.com/mohamedahmed167"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/mohammedahmmed/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
         </div>
+
+        <p>
+          &copy; <span class="year"></span>
+          Mohamed Ahmed Ragab. All rights reserved.
+        </p>
+      </div>
     </footer>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
